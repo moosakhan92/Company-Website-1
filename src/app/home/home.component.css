@@ -1,0 +1,20 @@
+p{
+    color: black;
+}
+#home{
+    height: 700px;
+}
+
+.slides img {
+    -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+    filter: blur(3px);
+}
+
+.logo_animation img{
+    height: 100px;
+    width: 180px;
+}
+
+button{
+    color: white;
+}
