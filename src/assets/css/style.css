@@ -7,7 +7,7 @@ html,
 body{
     font-size:18px;
     background:#fff; 
-    font-family: "Roboto";
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-weight: 300;
 }
 h1,
@@ -16,6 +16,7 @@ h3,
 h4,
 h5{
     text-transform: uppercase;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 h1 {
     font-size: 4rem;
@@ -162,13 +163,13 @@ input[type=date], input[type=datetime-local], input[type=email], input[type=numb
 .single_home h1{
     font-weight: 600;
     letter-spacing: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     color: black;
 }
 .single_home p {
     font-weight: 600;
     letter-spacing: 5px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     
 }
 .single_home img {
@@ -244,7 +245,7 @@ button.accordion {
     outline: none;
     transition: 0.4s;
     transition:background-color 0.5s ease-in-out;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-weight: 300;
 }
 
@@ -284,7 +285,7 @@ div.panel.show {
     position: absolute;
     top: 4px;
     z-index: 99;
-    font-family: "Open Sans","Sans Serif";
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 .skill .progress {
     background-color: #ddd;
@@ -357,7 +358,7 @@ div.panel.show {
 
 .main_service_area{}
 .main_service_area .col-md-4:hover .single_service{
-    background: #3f444a;
+    background: #b8bdc4;
     color:#fff;
 }
 .main_service_area .jumbotron{
@@ -477,7 +478,7 @@ div.panel.show {
 }
 .main_counter_area .main_counter_content{}
 .main_counter_area .main_counter_content .single_counter{
-    background: rgba(219, 116, 20, 0.5);
+    background: rgba(10, 10, 10, 0.774);
 }
 .main_counter_area .main_counter_content .single_counter i{
     font-size:2rem;
@@ -648,7 +649,7 @@ div.panel.show {
     transition: all 0.3s;
 }
 .main_footer_area .single_f_widget .single_f_widget_text .socail_f_widget a:hover i{
-    background: orange;
+    background: rgb(226, 21, 21);
     color:#fff;
 }
 .main_footer_area .single_f_widget .single_f_widget_text.f_reatures li{
@@ -657,13 +658,13 @@ div.panel.show {
     color:#cccccc;
 }
 .main_footer_area .single_f_widget .single_f_widget_text.f_reatures i{
-    color:orange;
+    color:rgb(226, 21, 21);
     padding-right: 5px;
 }
 
 .main_footer_area .single_f_widget .single_f_widget_text.f_tags a{
     color: #fff;
-    background: orange;
+    background: rgb(226, 21, 21);
     padding: 5px 10px;
     margin-bottom: 7px;
     display: inline-block;

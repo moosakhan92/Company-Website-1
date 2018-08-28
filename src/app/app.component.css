@@ -1,8 +1,11 @@
 .header_logo img{
     height: 54px;
-    width: 150px;
+    width: 120px;
 }
 nav{
     background: #01172b;
-    color: bisque;
+    color: rgb(226, 21, 21);
+}
+h1,h2,h3,h4,h5,h6,p,i{
+    color: rgb(226, 21, 21);
 }

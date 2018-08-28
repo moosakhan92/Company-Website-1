@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Webnexttechnology</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Material Design Bootstrap -->
+    <link href="/assets/css/materialize.css" rel="stylesheet">
+
+    <!-- Magnific-popup css -->
+    <link href="/assets/css/magnific-popup.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="/assets/css/progressbar.css" rel="stylesheet" type='text/css'>
+
+    <!-- Material Design Bootstrap -->
+    <link href="/assets/css/mdb.min.css" rel="stylesheet">
+
+
+
+    <!-- Your custom styles (optional) -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/responsive.css" rel="stylesheet">
+
+    <style type='text/css'>
+        .header_logo img {
+            height: 50px;
+            width: 120px;
+        }
+
+        nav {
+            background-color: #01172b;
+            color: rgb(226, 21, 21);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        i {
+            color: rgb(226, 21, 21);
+        }
+
+        .navbar-nav .nav-link {
+            padding: 0;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: white;
+        }
+
+        .navbar-light .navbar-nav .nav-link:focus,
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: orange;
+        }
+
+        .navbar-light .navbar-nav .active>.nav-link,
+        .navbar-light .navbar-nav .active>.nav-link:focus,
+        .navbar-light .navbar-nav .active>.nav-link:hover,
+        .navbar-light .navbar-nav .nav-link.active,
+        .navbar-light .navbar-nav .nav-link.active:focus,
+        .navbar-light .navbar-nav .nav-link.active:hover,
+        .navbar-light .navbar-nav .nav-link.open,
+        .navbar-light .navbar-nav .nav-link.open:focus,
+        .navbar-light .navbar-nav .nav-link.open:hover,
+        .navbar-light .navbar-nav .open>.nav-link,
+        .navbar-light .navbar-nav .open>.nav-link:focus,
+        .navbar-light .navbar-nav .open>.nav-link:hover {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <!--The content below is only a placeholder and can be replaced.-->
+    <!-- Start your project here-->
+    <!--Navbar-->
+
+    <div class='preloader'>
+        <div class='loaded'>&nbsp;</div>
+    </div>
+
+    <nav class="navbar navbar-fixed-top navbar-light">
+        <!--Collapse button-->
+        <div class="container">
+            <a href="#" data-activates="mobile-menu" class="button-collapse right">
+                <i class="fa fa-bars white-text"></i>
+            </a>
+
+            <!--Content for large and medium screens-->
+            <div class="navbar-desktop" style=" color: rgb(226, 21, 21);">
+                <!--Navbar Brand-->
+                <a class="header_logo" href="index.html">
+                    <img src="/assets/img/WebLogo.png" alt="Web Next Logo" /> </a>
+                <!--Links-->
+                <ul class="nav navbar-nav pull-right hidden-md-down text-uppercase">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Content for mobile devices-->
+            <div class="navbar-mobile">
+
+                <ul class="side-nav" id="mobile-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">portfolio
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--/.Navbar-->
+
+    <br/>
+    <br/>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="main_portfolio_area m-y-3">
+                    <div class="head_title center wow fadeInUp">
+                        <h2>Our Awesome Works</h2>
+                        <p>Website design Services encompasses with many different skills and disciplines in the production
+                            and maintenance of websites. WordPress CMS has become the most preferred and celebrated CMS platform
+                            around the globe for making easy-to-manage, Secure and SEO </p>
+                    </div>
+
+                    <div class="main_portfolio_content center wow fadeInUp">
+                        <div class="main_mix_menu m-y-2">
+                            <ul class="text-uppercase">
+                                <li class="filter" data-filter="all">All</li>
+                                <li class="filter" data-filter=".cat1">Web development</li>
+                                <li class="filter" data-filter=".cat2">App development</li>
+                                <li class="filter" data-filter=".cat3">software development</li>
+                                <li class="filter" data-filter=".cat4">Marketing</li>
+                            </ul>
+                        </div>
+
+                        <div id="mixcontent" class="mixcontent  wow zoomIn">
+                            <div class="col-md-4 mix cat4 cat2">
+                                <div class="single_mixi_portfolio center">
+                                    <div class="single_portfolio_img">
+                                        <img src="/assets/img/mob1.jpg" alt="" />
+                                        <div class="mixi_portfolio_overlay">
+                                            <a href="#!">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                            <a href="/assets/img/mob1.jpg" class="gallery-img">
+                                                <i class="fa fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="single_portfolio_text">
+                                        <h3>Our Work</h3>
+                                        <p>Web Next Technology</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mix cat4 cat1">
+                                <div class="single_mixi_portfolio center">
+                                    <div class="single_portfolio_img">
+                                        <img src="/assets/img/port2.jpg" alt="" />
+                                        <div class="mixi_portfolio_overlay">
+                                            <a href="#!">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                            <a href="/assets/img/port2.jpg" class="gallery-img">
+                                                <i class="fa fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="single_portfolio_text">
+                                        <h3>Our Work</h3>
+                                        <p>Web Next Technology</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mix cat2 cat4">
+                                <div class="single_mixi_portfolio center">
+                                    <div class="single_portfolio_img">
+                                        <img src="/assets/img/mob2.jpg" alt="" />
+                                        <div class="mixi_portfolio_overlay">
+                                            <a href="#!">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                            <a href="/assets/img/mob2.jpg" class="gallery-img">
+                                                <i class="fa fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="single_portfolio_text">
+                                        <h3>Our Work</h3>
+                                        <p>Web Next Technology</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mix cat2 cat3">
+                                <div class="single_mixi_portfolio center">
+                                    <div class="single_portfolio_img">
+                                        <img src="/assets/img/mob3.jpg" alt="" />
+                                        <div class="mixi_portfolio_overlay">
+                                            <a href="#!">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                            <a href="/assets/img/mob3.jpg" class="gallery-img">
+                                                <i class="fa fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="single_portfolio_text">
+                                        <h3>Our Work</h3>
+                                        <p>Web Next Technology</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mix cat3 cat4">
+                                <div class="single_mixi_portfolio center">
+                                    <div class="single_portfolio_img">
+                                        <img src="/assets/img/soft1.jpg" alt="" />
+                                        <div class="mixi_portfolio_overlay">
+                                            <a href="#!">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                            <a href="/assets/img/soft1.jpg" class="gallery-img">
+                                                <i class="fa fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="single_portfolio_text">
+                                        <h3>Our Work</h3>
+                                        <p>Web Next Technology</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mix cat1 cat3">
+                                <div class="single_mixi_portfolio center">
+                                    <div class="single_portfolio_img">
+                                        <img src="/assets/img/port3.jpg" alt="" />
+                                        <div class="mixi_portfolio_overlay">
+                                            <a href="#!">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                            <a href="/assets/img/port3.jpg" class="gallery-img">
+                                                <i class="fa fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="single_portfolio_text">
+                                        <h3>Our Work</h3>
+                                        <p>Web Next Technology</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of col-md-4 -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+    </section>
+    <!-- End of Portfolio Section -->
+
+
+    <section id="client" class="client">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="main_client_area">
+                        <div class="head_title center m-y-3 wow fadeInUp">
+                            <h2>CUSTOMER REVIEWS</h2>
+                        </div>
+                        <div class="carousel carousel-slider">
+                            <div class="carousel-item">
+                                <div class="single_client_area">
+                                    <div class="single_client">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="single_c_img center">
+                                                    <img class="img-circle" src="/assets/img/customer.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="single_c_text text-md-left text-xs-center">
+                                                    <h3>Anil Sharma</h3>
+                                                    <span class="text-uppercase m-b-1">PRD Logistics</span>
+                                                    <p>“ I am very much thankfull to Web Next Technology for there support and
+                                                        responce. I have been getting a great service since last 3 years”.......</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single_client">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="single_c_img center">
+                                                    <img class="img-circle" src="/assets/img/customer.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="single_c_text text-md-left text-xs-center">
+                                                    <h3>Sanjay Singhania</h3>
+                                                    <span class="text-uppercase m-b-1">BikeBot</span>
+                                                    <p>“ Web Next Technology is a great plateform to grow your business. I have
+                                                        a awesome experience to work with Web Next Technology ”......</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of carouser item -->
+                        </div>
+                        <!-- End of carouser slider -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of client Section -->
+
+
+    <section id="counter" class="counter">
+        <div class="main_counter_area m-y-3">
+            <div class="overlay p-y-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_counter_content center white-text wow fadeInUp">
+                            <div class="col-md-3">
+                                <div class="single_counter p-y-2 m-t-1">
+                                    <i class="fa fa-heart m-b-1"></i>
+                                    <h2 class="statistic-counter">325</h2>
+                                    <p>Awesome Designes</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="single_counter p-y-2 m-t-1">
+                                    <i class="fa fa-check m-b-1"></i>
+                                    <h2 class="statistic-counter">400</h2>
+                                    <p>Check Our</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="single_counter p-y-2 m-t-1">
+                                    <i class="fa fa-refresh m-b-1"></i>
+                                    <h2 class="statistic-counter">215</h2>
+                                    <p>repeat client</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="single_counter p-y-2 m-t-1">
+                                    <i class="fa fa-beer m-b-1"></i>
+                                    <h2 class="statistic-counter">25</h2>
+                                    <p>Awards</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of counter Section -->
+
+    <hr>
+    <section id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="main_footer_area white-text p-b-3">
+                    <div class="col-md-4">
+                        <div class="single_f_widget p-t-3 wow fadeInUp">
+                            <img src="/assets/img/WebLogo.png" alt="" />
+                            <div class="single_f_widget_text">
+                                <p style="font-weight: bold">Think Beyond The Imagination</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single_f_widget m-t-3 wow fadeInUp">
+                            <h4 class="text-uppercase">Some features</h4>
+                            <div class="single_f_widget_text f_reatures">
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-check"></i>Excellent Business</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>Rich Collection of Themes</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>A Great Web Presence</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>Timly Delivered With Perfection</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>Advance Online Product Designing</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>Unlimited Support</li>
+                                    <li>
+                                        <i class="fa fa-check"></i>Fully Responsive Application</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single_f_widget m-t-3 wow fadeInUp">
+                            <h4 class="text-uppercase">Quick Links</h4>
+                            <ul class="single_f_widget_text f_reatures">
+                                <li>
+                                    <i class="fa fa-home"></i>
+                                    <a href="index.html"> Home</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-thumbs-o-up"></i>
+                                    <a href="index.html"> About</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-cog"></i>
+                                    <a href="index.html"> Service</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-file"></i>
+                                    <a href="portfolio.html"> Portfolio</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone"></i>
+                                    <a href="index.html"> Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_coppyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="copyright_text m-t-2 text-xs-center">
+                            <p class="wow zoomIn" data-wow-duration="1s">Copyright &copy; 2018
+                                <a target="_black" href="index.html">Web Next Technology</a> All Rights Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6" style="font-size: 25px;">
+                        <div class="socail_coppyright text-sm-right m-t-2 text-xs-center wow zoomIn">
+                            <a target="_black" href="https://www.facebook.com/">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                            <a target="_black" href="https://plus.google.com/">
+                                <i class="fa fa-google-plus-square"></i>
+                            </a>
+                            <a target="_black" href="https://www.instagram.com/">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a target="_black" href="https://twitter.com/?lang=en">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="/assets/js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="/assets/js/tether.min.js"></script>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="/assets/js/mdb.min.js"></script>
+
+    <!-- Wow js -->
+    <script type="text/javascript" src="/assets/js/wow.min.js"></script>
+
+    <!-- Mixitup js -->
+    <script type="text/javascript" src="/assets/js/jquery.mixitup.min.js"></script>
+
+    <!-- Magnific-popup js -->
+    <script type="text/javascript" src="/assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- accordion js -->
+    <script type="text/javascript" src="/assets/js/accordion.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="/assets/js/materialize.js"></script>
+
+    <script>
+        $(".button-collapse").sideNav();
+    </script>
+
+    <!-- wow js active -->
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
+
+    <script type="text/javascript" src="/assets/js/plugins.js"></script>
+    <script type="text/javascript" src="/assets/js/main.js"></script>
+
+</body>
+
+</html>

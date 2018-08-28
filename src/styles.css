@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+h1,h2,h3,h4,h5,h6,p{
+    color: rgb(219, 54, 54);
+}
+h2 {
+    text-shadow: 2px 2px 4px black;
+}
+h3 {
+    text-shadow: 1px 1px 2px black;
+}
+h4 {
+    text-shadow: 1px 1px 1px black;
+}
